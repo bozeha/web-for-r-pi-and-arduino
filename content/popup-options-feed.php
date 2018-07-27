@@ -217,10 +217,10 @@
 
               <div class="row feed1">
                 <div class="image-settings col-md-2 col-xs-6">
-                  <img src="images/feed.png" />
+                  <img src="images/fan.jpg" />
                 </div>
                 <div class="title-settings col-md-4 col-xs-6">
-                  <h2>Feed 1</h2>
+                  <h2>set:</h2>
                 </div>
                 <div class="form-group col-xs-6 col-md-4">
                   <label for="sel1">Max Temp</label>

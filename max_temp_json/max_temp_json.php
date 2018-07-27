@@ -1,1 +1,1 @@
-<?php echo '{"id":1,"max_temp":444,"activ":0}';?>
+<?php echo '{"id":1,"max_temp":433,"activ":1}';?>

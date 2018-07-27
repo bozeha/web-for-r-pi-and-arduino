@@ -38,10 +38,11 @@
 
   }
   function openOptions2() {
+    var current_max_temp_val = $("#cooler_setting #max_temp").text()!=""?$("#cooler_setting #max_temp").text():"";
+    var currentActiveOrNot = $("#cooler_setting #activation").text()=="Active"?true:false;
     $('#myModal4').modal();
-  }
-  function openOptions3() {
-    $('#myModal5').modal();
+    $("#max_temp_number").val(current_max_temp_val);
+    currentActiveOrNot?$('#myModal4 #active_max_temp_number').prop('checked', true):('#myModal4 #active_max_temp_number').prop('checked', false);
   }
 
 
