@@ -1,0 +1,343 @@
+    
+    
+    #temp_info
+    {
+        height: 100%;
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    text-align: right;
+    padding-bottom: 20px;
+    }
+    #temp_info h1
+    {
+        font-size:24px;
+    }
+    #temp_info p
+    {
+        margin: 0 0 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    }
+    #temp_info div span
+    {
+        display:block;
+        background-color:gray;  
+        width:100%;
+        height:25px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+
+    .buttons-big
+    {
+        width:105px !important;
+        display:inline-block;
+        
+    }
+     #all-buttons
+     {
+      display:table;
+      margin:0 auto;
+     }
+    .buttons-big:last-child a img
+    {
+        border-right:5px solid lightblue;
+        padding-bottom:5px;
+            background-color: white;
+    }
+    .row a img
+    {
+
+        max-width:105px;
+        padding:0px;
+        border-left:5px solid lightblue;
+        border-bottom:5px solid lightblue;
+        border-top:5px solid lightblue;
+
+    }
+    .container
+    {
+        /*padding-top:100px;*/
+
+    }
+
+    .row img,a
+    {
+        display:block;
+        margin:0 auto;
+    }
+iframe
+{
+    width: 663px;
+    height: 485px;
+    display:block;
+    margin:0 auto;
+}
+
+.header
+{
+    background-color:black;
+
+}
+.header .container
+{
+    padding-top:0px;
+}
+#logo
+{
+    width: 150px;
+    height: 100px;
+    background-image: url(../images/aqua.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#top-buttons-options,#top-buttons-options-feed
+{
+    width: 70px;
+    height: 100px;
+    background-image: url(../images/options.png);
+    background-repeat: no-repeat;
+        background-size: 60px;
+    background-position-y: 50%;
+    cursor:pointer;
+}
+#top-buttons-options-feed
+{
+background-image: url(../images/feed-icon.png);
+
+}
+#top-buttons
+{
+    width: 70px;
+    height: 100px;
+    background-image: url(../images/reset.png);
+    background-repeat: no-repeat;
+        background-size: 60px;
+    background-position-y: 50%;
+    cursor:pointer;
+}
+#main-con
+{
+    background-image:url(../images/aqua-bg.jpg);
+    height:1310px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.buttons-big
+    {
+        width:80px !important;
+        display:inline-block;
+        
+    }
+    .row a img
+    {
+
+        max-width:67px;
+        padding:0px;
+        border-left:5px solid lightblue;
+        border-bottom:5px solid lightblue;
+        border-top:5px solid lightblue;
+        border-right:5px solid lightblue;
+
+    }
+    iframe
+    {
+        width:300px;
+    }
+    #main-con
+    {
+        height:1110px;
+    }
+    
+}
+#popup_box h4,#popup_box p
+{
+text-align:right;
+}
+.modal-footer button:nth-of-type(2)
+{
+float:left;
+width:40%;
+    padding:0px;
+    margin:0px;
+}
+.modal-footer button:nth-of-type(1)
+{
+    float:rigth;
+    width:40%;
+    padding:0px;
+    margin:0px;
+    
+}
+.modal-footer div
+{
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+#loader
+{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    background-image: url(../images/aqua-bg.jpg);
+}
+#loader img
+{
+    width: 20%; 
+    top: 50%;
+    left: 45%;
+    position: relative;
+}
+#myModal2,#myModal3
+{
+    direction:rtl;
+}
+#myModal2 .modal-content,#myModal3 .modal-content
+{
+
+    padding:20px;
+}
+#myModal2 .container, #myModal3 .container
+{
+    width:100%;
+}
+
+#myModal2 .image-settings img, #myModal3 .image-settings img
+{
+width:50px;
+
+}
+#myModal2 h2, #myModal3 h2
+{
+    font-size:20px;
+    text-align:left;
+}
+#myModal2 .active, #myModal3 .active
+{
+zoom: 2;
+margin-top: 15px;
+}
+
+#myModal2 .active-option, #myModal3 .active-option
+{
+    position:relative;
+}
+#myModal2 .active-option .form-check-label, #myModal3 .active-option .form-check-label
+{
+    position:absolute;
+}
+
+#popup-button, #popup-button2 {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+#popup-button:hover, #popup-button2:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+#popup-button:active,#popup-button2:active {
+	position:relative;
+	top:1px;
+}
+ @media screen and (max-width: 768px)
+{
+
+    #myModal2 .form-group
+    {
+        float:right;
+
+    }
+}
+
+/*  popup style */
+
+div.modal-header
+{
+    padding:0px;
+}
+div.modal-header .close
+{
+    margin-top: -16px;
+    font-size: 35px;
+}
+#temp_info div span#water_temp
+{
+    position:relative;
+}
+#temp_info div  span#cooler_setting
+{
+    width:100%;
+    display:inline-block;
+    background-color: transparent;
+    background-size: 100%;
+    position:relative;
+}
+#image_max_temp
+{
+    background-image: url(../images/options.png);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    right: 0px;
+    
+}
+#myModal4 .container input#temp_number
+{
+    width:60px;
+}
+#myModal4  h4
+{
+    text-align: right;
+    padding-right: 15px;
+}
+#myModal4 button.close 
+{
+    margin-top:-3px;
+}
+#myModal4 .container
+{
+    width:50%;
+}
+#myModal4 .image-settings img
+{
+    width:50px;
+    height:50px;
+}
