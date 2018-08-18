@@ -201,7 +201,7 @@ function Salinity(reg_string)
         $("#salinity").text('1.021');
         $("#salinity").css('color','blue');
         break;
-        case  (72>salinity_number && salinity_number >70) :
+        case  (72>salinity_number && salinity_number >104) :
         $("#salinity").text('1.022');
         $("#salinity").css('color','blue');
         break;
